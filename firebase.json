@@ -1,6 +1,7 @@
 {
   "hosting": {
     "public": "public",
+    "site": "permit-buddy-api",
     "rewrites": [
       {
         "source": "**",
