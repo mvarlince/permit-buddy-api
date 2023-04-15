@@ -7,7 +7,9 @@ export function getForm(req, res) {
 }
 
 export function input(req, res) {
+
     const {field1, field2} = req.body
     console.log(field1, field2)
-    res.send("Input received")
+
+    res.send("test", field1, field2)
 }
